@@ -428,10 +428,7 @@ document.write(`
 <p>세 가지 요소로 넘어가기 전에, 인터프리터가 실행되는 과정에 대한 이해를 높여보겠습니다. 인터프리터의 생성부터 실행까지의 과정을 코드 레벨로 정리하면 다음과 같습니다.</p>
 <details>
 <summary>1. 인터프리터 생성 (= 3.컴파일하기) </summary>
-<div class="mermaid">
-graph LR
-A("`CPython Source Code`") --> |Build|C("`CPython Interpreter`")
-</div>
+<p><img alt="img" src="../_images/mermaid.png" /></p>
 <ul class="simple">
 <li><p>책에서는 CPython Source Code를 compile 해서 인터프리터를 생성한다고 표현하기도 하고, build한다고도 표현합니다. <strong>Build</strong> 과정에는 <strong>Compile</strong> 과정이 포함되어 있기 때문에, 굳이 구분하지 않고 혼용해서 사용하는 것으로 보입니다.</p></li>
 <li><p>또한, 빌드 결과물인 <strong>CPython Binary</strong>와 <strong>executable interpreter</strong>(작동하는 인터프리터)를 같은 용어로 사용하고 있습니다. <strong>CPython Interpreter</strong>로 이해해도 될 듯 합니다. <strong>“CPython 소스 코드를 빌드해서 파이썬 인터프리터를 생성했구나”</strong> 라고 생각하면 되겠습니다.</p></li>

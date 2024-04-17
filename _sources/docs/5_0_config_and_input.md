@@ -21,10 +21,7 @@
 <details>
 <summary>1. 인터프리터 생성 (= 3.컴파일하기) </summary>
 
-<div class="mermaid">
-graph LR
-A("`CPython Source Code`") --> |Build|C("`CPython Interpreter`")
-</div>
+![img](../images/5_config_and_input/mermaid.png)
 
 - 책에서는 CPython Source Code를 compile 해서 인터프리터를 생성한다고 표현하기도 하고, build한다고도 표현합니다. **Build** 과정에는 **Compile** 과정이 포함되어 있기 때문에, 굳이 구분하지 않고 혼용해서 사용하는 것으로 보입니다.
 - 또한, 빌드 결과물인 **CPython Binary**와 **executable interpreter**(작동하는 인터프리터)를 같은 용어로 사용하고 있습니다. **CPython Interpreter**로 이해해도 될 듯 합니다. **“CPython 소스 코드를 빌드해서 파이썬 인터프리터를 생성했구나”** 라고 생각하면 되겠습니다.
